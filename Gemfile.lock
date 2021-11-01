@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jp_business_day (0.1.0)
+    jp_business_day (1.1.0)
       holiday_japan (~> 1.4.4)
 
 GEM
