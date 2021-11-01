@@ -1,6 +1,6 @@
 # JpBusinessDay
 
-some util methods for business days in japan.
+some useful methods for business days in japan.
 
 ## Installation
 
