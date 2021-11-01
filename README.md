@@ -1,8 +1,6 @@
 # JpBusinessDay
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jp_business_day`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+some util methods for business days in japan.
 
 ## Installation
 
