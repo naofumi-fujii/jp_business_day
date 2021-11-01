@@ -2,6 +2,7 @@
 
 require_relative "jp_business_day/version"
 require "date"
+require "holiday_japan"
 
 module JpBusinessDay
   class Error < StandardError; end
