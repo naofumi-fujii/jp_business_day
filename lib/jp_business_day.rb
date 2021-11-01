@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "jp_business_day/version"
+require "date"
 
 module JpBusinessDay
   class Error < StandardError; end
