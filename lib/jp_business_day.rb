@@ -23,6 +23,14 @@ module JpBusinessDay
       business_days(date).last == date
     end
 
+    def last_business_day_of_this_month(date = Date.today)
+      business_days(date).last
+    end
+
+    def first_business_day_of_this_month(date = Date.today)
+      business_days(date).first
+    end
+
     private
 
     def business_days(current = Time.now)
