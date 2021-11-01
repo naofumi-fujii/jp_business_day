@@ -15,7 +15,7 @@ RSpec.describe JpBusinessDay do
     expect(JpBusinessDay.last_day_of_this_month(date)).to eq Date.parse("1993-02-28")
   end
 
-  example ".last_business_day_of_this_month" do
+  example ".last_business_day_of_this_month?" do
     date = Date.parse("2021-10-21")
     expect(JpBusinessDay.last_business_day_of_this_month?(date)).to eq false
 
